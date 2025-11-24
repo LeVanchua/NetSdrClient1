@@ -1,4 +1,3 @@
-# Лабораторні з реінжинірингу (8×)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
