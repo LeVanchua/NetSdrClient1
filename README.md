@@ -18,7 +18,7 @@
 
 ## Структура 8 лабораторних
 
-  Кожна робота — **через Pull Request**. У PR додати короткий опис: *що змінено / як перевірити / ризики* + звіт про хід виконання в Classroom.
+  Кожна робота — **через Pull Request або окремий commit**. Додати короткий опис: *що змінено / як перевірити* + звіт про хід виконання в Classroom.
 
 ### Лаба 1 — Підключення SonarCloud і CI
 
@@ -123,7 +123,7 @@ jobs:
 - **Вимкнути Automatic Analysis** в проєкті.
 - Перевірити **PR-декорацію** (вкладка *Checks* у PR).
 
-**Здати:** посилання на PR із зеленим аналізом, скрін Quality Gate, скрін бейджів у README.
+**Здати:** посилання на PR чи commit, скрін Quality Gate, скрін бейджів у README.
 
 ---
 
@@ -134,7 +134,7 @@ jobs:
 **Кроки:**
 - Дрібними комітами виправити знайдені Sonar-проблеми у `NetSdrClientApp`.
 
-**Здати:** PR із “зеленими” required checks; скріни змін метрик у Sonar.
+**Здати:** скріни змін метрик у Sonar.
 
 ---
 
@@ -175,7 +175,7 @@ jobs:
 - Прибрати **1–2** найбільші дубльовані фрагменти (рефакторинг/винесення спільного коду).
 - Перезапустити CI, перевірити, що *Duplications on New Code* ≤ порога (типово 3%).
 
-**Здати:** PR із зеленим Gate і скрінами “до/після”.
+**Здати:** PR з скрінами “до/після”.
 
 ---
 
@@ -247,19 +247,22 @@ updates:
   - Require a pull request before merging
   - Require status checks to pass → відміть:
     - твій CI-джоб (наприклад, CI / Tests & Sonar)
-    - SonarCloud Code Analysis / SonarCloud Quality Gate
+    - SonarCloud Code Analysis / SonarCloud Quality Gate<img width="954" height="562" alt="image" src="https://github.com/user-attachments/assets/ca70a9cc-2eac-4e4c-8177-663a63cfaeb8" />
   - (Опц.) Require approvals (1–2)
   - (Опц.) Require branches to be up to date (щоб ребейзилися перед мерджем)
+ 
+- Після застосування останніх змін, перевірити що Pull Request не дозволяється залити, допоки Sonar не закінчить переврку 
+<img width="918" height="345" alt="image" src="https://github.com/user-attachments/assets/f9bdfbb5-c577-412a-8a84-adf5eba3fc4a" />
+
 **Здати:** скрін *Branches → main* з зеленим Gate
 
 ---
 
 ## Норми здачі та оцінювання (єдині для всіх лаб)
 
-**Подання:** лише через **Pull Request**.  
-**Опис PR:** що зроблено, як перевірити, ризики/зворотна сумісність.  
-**Артефакти:** скріни/посилання на Sonar, логи CI, coverage report.  
-**Критерій “зелений PR”:** CI пройшов, **Quality Gate** зелений, покриття/дублі в нормі.
+**Подання:** через **Pull Request** чи **commit**.  
+**Опис:** що зроблено, як перевірити, ризики/зворотна сумісність.  
+**Артефакти:** скріни/посилання на Sonar, логи CI.
 
 ---
 
