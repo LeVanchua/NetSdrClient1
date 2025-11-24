@@ -1,4 +1,3 @@
-# Лабораторні з реінжинірингу (8×)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=bugs)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
@@ -10,7 +9,6 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LeVanchua_-&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LeVanchua_-)
-
 
 Цей репозиторій використовується для курсу **реінжиніринг ПЗ**. 
 Мета — провести комплексний реінжиніринг спадкового коду NetSdrClient, включаючи рефакторинг архітектури, покращення якості коду, впровадження сучасних практик розробки та автоматизацію процесів контролю якості через CI/CD пайплайни.
